@@ -62,7 +62,7 @@ Ensure the backend server is configured to allow requests from your frontend:
 
 ```bash
 cd backend
-npm start
+node server.js
 ```
 
 **Start the Frontend Server:**
