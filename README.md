@@ -29,7 +29,7 @@ Welcome to the **LinkUp**! 🎉 This is a real-time chat application built with 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/splendid-chat-hub.git
+git clone https://github.com/dwija12903/chat-hub.git
 cd splendid-chat-hub
 ```
 
