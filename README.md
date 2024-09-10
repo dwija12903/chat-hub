@@ -30,7 +30,7 @@ Welcome to the **LinkUp**! 🎉 This is a real-time chat application built with 
 
 ```bash
 git clone https://github.com/dwija12903/chat-hub.git
-cd splendid-chat-hub
+cd chat-hub
 ```
 
 ### Install Dependencies
