@@ -9,7 +9,6 @@ A real-time chat application built using React for the frontend, Express and Soc
   - [Prerequisites](#prerequisites)
   - [Backend Setup](#backend-setup)
   - [Frontend Setup](#frontend-setup)
-- [Environment Variables](#environment-variables)
 - [Usage](#usage)
 - [Testing the Chat](#testing-the-chat)
 - [Contributing](#contributing)
@@ -71,14 +70,12 @@ Make sure you have the following installed:
    npm install
    ```
 
-4. Set up the environment variables (see [Environment Variables](#environment-variables) section below).
-
-5. Run the backend server:
+4. Run the backend server:
    ```bash
-   npm start
+   node sever.js
    ```
 
-6. The backend server should now be running on `http://localhost:3001`.
+5. The backend server should now be running on `http://localhost:3001`.
 
 ---
 
@@ -94,33 +91,18 @@ Make sure you have the following installed:
    npm install
    ```
 
-3. Set up the environment variables (see [Environment Variables](#environment-variables) section below).
+3. Set up the environment variables, Create a `.env` file in the `frontend` directory with the following value:
+
+```bash
+VITE_BACKEND_URL = http://localhost:3001
+```
 
 4. Start the frontend development server:
    ```bash
    npm run dev
    ```
 
-5. The frontend should now be accessible at `http://localhost:3000`.
-
----
-
-## **Environment Variables**
-
-### Backend:
-Create a `.env` file in the `backend` directory with the following values:
-
-```bash
-PORT=3001
-FRONTEND_URL=http://localhost:3000
-```
-
-### Frontend:
-Create a `.env` file in the `frontend` directory with the following value:
-
-```bash
-VITE_BACKEND_URL=http://localhost:3001
-```
+5. The frontend should now be accessible at `http://localhost:5173/`.
 
 ---
 
@@ -138,7 +120,7 @@ VITE_BACKEND_URL=http://localhost:3001
 
 To test the real-time chat functionality:
 
-1. Open the application in two separate browser windows or tabs. Both should point to `http://localhost:3000`.
+1. Open the application in two separate browser windows or tabs. Both should point to `http://localhost:5173`.
    
 2. Log in with different usernames in each window.
 
