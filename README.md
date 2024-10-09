@@ -118,9 +118,9 @@ VITE_BACKEND_URL = http://localhost:3001
 
 ## **Testing the Chat**
 
-To test the real-time chat functionality:
+To test the real-time chat functionality: [Live Link](https://chathub-qz20.onrender.com/)
 
-1. Open the application in two separate browser windows or tabs. Both should point to `http://localhost:5173`.
+1. Open the [application](https://chathub-qz20.onrender.com/) in two separate browser windows or tabs. Both should point to `https://chathub-qz20.onrender.com/`.
    
 2. Log in with different usernames in each window.
 
