@@ -4,13 +4,13 @@ A real-time chat application built using React for the frontend, Express and Soc
 
 ## **Table of Contents**
 - [Features](#features)
+- [Testing the Chat](#testing-the-chat)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Backend Setup](#backend-setup)
   - [Frontend Setup](#frontend-setup)
 - [Usage](#usage)
-- [Testing the Chat](#testing-the-chat)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -26,6 +26,21 @@ A real-time chat application built using React for the frontend, Express and Soc
 - Seamless integration between the frontend and backend.
 
 ---
+
+## **Testing the Chat**
+
+To test the real-time chat functionality: [Live Link](https://chathub-qz20.onrender.com/)
+
+1. Open the [application](https://chathub-qz20.onrender.com/) in two separate browser windows or tabs. Both should point to `https://chathub-qz20.onrender.com/`.
+   
+2. Log in with different usernames in each window.
+
+3. Send messages in one window, and you will see the messages instantly appear in the other window.
+
+4. The user list will automatically update as users join or leave the chat.
+
+---
+
 
 ## **Technologies Used**
 
@@ -113,20 +128,6 @@ VITE_BACKEND_URL = http://localhost:3001
 3. **Real-time Updates**:
    - Users are notified when someone joins or leaves the chat.
    - Messages are broadcasted instantly to all connected users.
-
----
-
-## **Testing the Chat**
-
-To test the real-time chat functionality: [Live Link](https://chathub-qz20.onrender.com/)
-
-1. Open the [application](https://chathub-qz20.onrender.com/) in two separate browser windows or tabs. Both should point to `https://chathub-qz20.onrender.com/`.
-   
-2. Log in with different usernames in each window.
-
-3. Send messages in one window, and you will see the messages instantly appear in the other window.
-
-4. The user list will automatically update as users join or leave the chat.
 
 ---
 
